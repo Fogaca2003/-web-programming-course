@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas ordenadas e não ordenadas</title>
+</head>
+<body>
+    <!-- 
+        Recomenda-se usar CSS para estilizar as listas, mas também é possível usar o atributo "type" para definir o tipo de marcador em listas ordenadas e não ordenadas.
+
+        ul -> unordered list (lista não ordenada)
+        ol -> ordered list (lista ordenada)
+        li -> list item (item de lista)
+    -->
+
+    <!-- 
+           type="disc" -> bolinha
+           type="square" -> circulo
+           type="circle" -> quadrado
+           style="list-style-type: none;" -> remove os marcadores 
+           style="list-style-type: circle;" -> bolinha
+           style="list-style-type: square;" -> quadrado
+           style="list-style-type: disc;" -> circulo
+
+    -->
+
+    <h1>Listas não ordenadas (menus) </h1>
+    <ul type="disc">
+        <li>Veiculos</li>
+        <li>
+            Tecnologia
+             <ul>
+                <li>Computadores</li>
+                <li>Celulares</li>
+                <li>Tablets</li>
+            </ul>
+        
+        </li>
+    </ul>
+
+    <!--
+        recomenda-se usar CSS para estilizar as listas, mas também é possível usar o atributo "type" para definir o tipo de marcador em listas ordenadas e não ordenadas.
+        
+        type="1" -> números
+        type="A" -> letras maiúsculas
+        type="a" -> letras minúsculas
+        type="I" -> números romanos maiúsculos
+        type="i" -> números romanos minúsculos
+
+        style="list-style-type: none;" -> remove os marcadores
+        style="list-style-type: decimal;" -> números
+        style="list-style-type: upper-alpha;" -> letras maiúsculas
+        style="list-style-type: lower-alpha;" -> letras minúsculas
+        style="list-style-type: upper-roman;" -> números romanos maiúsculos
+        style="list-style-type: lower-roman;" -> números romanos minúsculos
+    
+    -->
+    <h2>Listas ordenadas (passos, instruções) </h2>
+    <ol type="I">
+        <li>Passo 1</li>
+        <li>Passo 2</li>
+        <li>Passo 3</li>
+        <li>
+            Passo 4
+            <ol>
+                <li>Sub Passo 1</li>
+                <li>Sub Passo 2</li>
+                <li>Sub Passo 3</li>
+            </ol>
+        </li>
+    </ol>
+
+</style>
+</body>
+</html>
