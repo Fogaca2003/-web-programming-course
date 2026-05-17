@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title> 
+</head>
+<body>
+    
+    <h1>Tabelas</h1>
+    <!--
+        table = tag para criar uma tabela
+        tr = tag para criar uma linha da tabela
+        th = tag para criar um cabeçalho da tabela
+        td = tag para criar uma célula da tabela
+
+        thead = tag para agrupar o cabeçalho da tabela
+        tbody = tag para agrupar o corpo da tabela
+        tfoot = tag para agrupar o rodapé da tabela
+
+        border (usar só no css)= atributo para indicar a borda da tabela
+        cellspacing (usar só no css)= atributo para indicar o espaçamento entre as células da tabela
+        cellpadding (usar só no css) = atributo para indicar o espaçamento entre o conteúdo da célula e a borda da célula
+        
+        width = atributo para indicar a largura da tabela
+        height = atributo para indicar a altura da tabela
+        style = atributo para indicar estilos CSS para a tabela
+
+        colspan = atributo para indicar que uma célula deve se estender por várias colunas
+        rowspan = atributo para indicar que uma célula deve se estender por várias linhas
+    -->
+    <table border="1" cellspacing="2" cellpadding="5">
+        <caption>Produtos em estoque</caption>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Notebook</td>
+                <td>30</td>
+                <td>R$ 2.500,00</td>
+            </tr>
+            <tr>
+                <td>Tablet</td>
+                <td>25</td>
+                <td>R$ 1.200,00</td>
+            </tr>
+            <tr>
+                <td>Smartphone</td>
+                <td>35</td>
+                <td>R$ 1.500,00</td>
+            </tr>
+        </tbody >
+
+        <tfoot>
+            <tr>
+                <td rowspan="2">Desconto</td>
+                <td colspan="2">R$ 500,00</td>
+            </tr>
+            <tr>
+                <td colspan="2">R$ 600,00</td>
+            </tr>
+        </tfoot>
+        
+    </table>
+
+</body>
+</html>
