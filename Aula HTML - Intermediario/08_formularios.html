@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form >
+        email: <br>
+        <input type="text" name="email" placeholder="Digite seu Email" value="Teste"><br>
+        Senha: <br>
+        <input type="password" name="senha" placeholder="Digite sua Senha"><br>
+        
+        Comentário: <br>
+        <textarea name="comentario" placeholder="Digite seu Comentário"></textarea><br>
+
+
+        <button type="submit" value="Entrar"><img src="submit.png" alt="Entrar"></button>
+        <button type="reset">Limpar</button>
+
+        
+    </form>
+
+
+      
+
+    <!-- Formulario de contacto 
+     form - > (formulario)
+     input - > (campo de entrada)
+     submit - > (enviar)
+     type="text" -> (tipo de campo de entrada, neste caso, um campo de texto)
+     type="password" -> (tipo de campo de entrada, neste caso, um campo de senha, onde os caracteres digitados são ocultados)
+     textarea - > (campo de texto multilinha, usado para comentários ou mensagens mais longas)      
+     button - > (botão)
+     button type="submit" -> (botão que, quando clicado, envia os dados do formulário para o servidor)  
+     button value="Entrar" -> (valor que será enviado para o servidor quando o botão for clicado, neste caso, "Entrar")     
+     button type="submit" value="Entrar" -> (botão que, quando clicado, envia os dados do formulário para o servidor, e o valor "Entrar" é enviado junto com os dados do formulário)
+     button reset -> (botão que, quando clicado, limpa todos os campos do formulário, resetando-os para seus valores iniciais)
+     method="get" -> (método de envio dos dados, os dados ficam visíveis na URL)
+     method="post" -> (método de envio dos dados, os dados ficam ocultos na URL)
+     action="processa" -> (destino para onde os dados serão enviados para processamento)
+     name="email" -> (atributo que identifica o campo de entrada, usado para acessar os dados no servidor)
+     placeholder="Digite seu Email" -> (texto de dica que aparece dentro do campo de entrada, indicando o que deve ser digitado)        
+    
+    -->
+</body>
+</html>
